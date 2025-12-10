@@ -32,7 +32,7 @@ pkill -9 -f "/root/checkuser/checkuser.py"
 
 
 apt update && apt upgrade -y && apt install python3 git -y
-git clone https://github.com/omar-campos/CheckUser.git
+git clone https://github.com/omar-campos/checkuser.git
 chmod +x /root/checkuser/checkuserMenu.sh
 ln -s /root/checkuser/checkuserMenu.sh /usr/local/bin/iniciar
 
